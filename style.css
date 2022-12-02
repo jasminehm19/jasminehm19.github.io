@@ -12,23 +12,30 @@ html {
 
 h1 {
   font-size: 3rem;
-  color: #e2dbdb;
+  color: white;
 }
 
 hr {
   border-color: #F05F44;
   border-width: 3px;
   max-width: 65px;
+  opacity: 100;
+  margin: auto;
 }
 
 .buffer {
-  height: 10rem;
+  height: 2rem;
 }
 
-.btn {
+.btn{
   font-weight: 700;
   border-radius: 300px;
   text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  margin-top: 25px;
 }
 
 .btn-primary {
@@ -36,12 +43,9 @@ hr {
   border-color: #F05F44;
 }
 
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
-}
 
-.btn-xl {
-  padding: 1rem 2rem;
+.btn-primary:hover {
+  background-color: #aa3d2a !important;
+  border-color: #aa3d2a !important;
+  border-width: 4px;
 }
